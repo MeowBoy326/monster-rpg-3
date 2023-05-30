@@ -1,0 +1,1 @@
+This is modified GPL code based off of PPMCK, so it too is GPL.

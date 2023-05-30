@@ -1,0 +1,4 @@
+Everything here is under it's own license. This is everything
+the Monster RPG 3 Soundtrack for NES is based on. Basically it
+stitches vegaplay and ppmck together to get something that worked
+for me.
