@@ -1,5 +1,5 @@
+cmake_minimum_required(VERSION 2.8.12)
 project(Nooskewl_Wedge)
-cmake_minimum_required(VERSION 2.6)
 
 option(DEBUG "Build for debugging" OFF)
 option(SHARED "Build as a shared library" OFF)

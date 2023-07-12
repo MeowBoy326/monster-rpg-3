@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.8)
+cmake_minimum_required(VERSION 2.8.12)
 project(tgui3 CXX)
 
 option(SHARED "Build as a shared library" OFF)
