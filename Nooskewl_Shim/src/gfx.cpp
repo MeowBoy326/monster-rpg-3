@@ -1204,7 +1204,7 @@ static void create_mouse_cursors()
 			memcpy(flip_buf+y*size.w*4, pixels+((size.h-1)-y)*size.w*4, size.w*4);
 		}
 		mouse_cursor_surface = SDL_CreateRGBSurfaceFrom(flip_buf, size.w, size.h, 32, size.w*4, 0xff, 0xff00, 0xff0000, 0xff000000);
-		mouse_cursor = SDL_CreateColorCursor(mouse_cursor_surface, shim::cursor_hotspot.x, shim::cursor_hotspot.y);
+		mouse_cursor = SDL_CreateColorCursor(mouse_cursor_surface, 0, 0);
 		delete[] flip_buf;
 	}
 	else {
